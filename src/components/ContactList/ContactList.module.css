@@ -1,0 +1,8 @@
+.contactList {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 444px;
+  min-width: 240px;
+  padding: 24px;
+}

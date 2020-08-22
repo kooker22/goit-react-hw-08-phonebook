@@ -1,0 +1,13 @@
+.wrapper {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  width: 300px;
+}
+.contents {
+  text-align: left;
+  padding-left: 10px;
+}
+.container {
+  width: 350px;
+}

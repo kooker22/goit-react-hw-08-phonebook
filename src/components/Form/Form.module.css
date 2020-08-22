@@ -1,0 +1,28 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 270px;
+  margin-bottom: 5px;
+  position: relative;
+}
+.label {
+  text-align: right;
+  margin-bottom: 5px;
+}
+.inputWrapper {
+  display: flex;
+  align-self: flex-end;
+  flex-direction: column;
+}
+.buttonForm {
+  position: absolute;
+  left: 110%;
+  bottom: 0;
+  height: auto;
+  width: 80px;
+  font-size: 12px;
+}
+.input {
+  margin-left: 5px;
+}
