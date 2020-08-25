@@ -6,9 +6,11 @@ import styles from './NavBar.module.css';
 
 const Navigation = ({ isAuthenticated }) => (
   <nav>
-    <NavLink to="/contacts" exact className={styles.link}>
-      Phonebook
-    </NavLink>
+    {isAuthenticated && (
+      <NavLink to="/contacts" exact className={styles.link}>
+        Phonebook
+      </NavLink>
+    )}
   </nav>
 );
 
